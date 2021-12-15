@@ -1,27 +1,24 @@
-# MaterialAdmin
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.1.
+# clone project
+   
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+  upload the tk_management.sql script in the db folder in the root direct into your local database.
+  Update the .env file with your mysql database credentials and access the http://localhost:8000 on your browser;
+  Navigate to project root folder on your terminal and type
+  
+   php artisan serve
+  
+   The users table have default users already if you want to test without account creation
+   
+    username:ewangclarks@gmail.com
+    pwd: Jesusislordforever
+    
 
-## Code scaffolding
+## Production Server
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
+   you may follow the link below to host the application on cloud.
+    https://support.cloudways.com/en/articles/5128779-how-to-deploy-laravel-project-on-cloudways-server
+    
 ## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+  The project database is in the db folder at the root of your application
