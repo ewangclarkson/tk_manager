@@ -1,5 +1,3 @@
-# clone project
-   
 
 ## Development server
 
