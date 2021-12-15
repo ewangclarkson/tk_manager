@@ -1,4 +1,5 @@
 
+#Deployment
 ## Development server
 
   upload the tk_management.sql script at the db folder in the root directory of your application into your local database.
@@ -17,6 +18,10 @@
 
    you may follow the link below to host the application on cloud.
     https://support.cloudways.com/en/articles/5128779-how-to-deploy-laravel-project-on-cloudways-server
+    
+#References
+  The byrushan super admin template was use in the development of this project and can be access through the link https://byrushan.com/projects/material-admin/app/2.6/
+  Also the JQuery drag and drop table plugin was used for the reordering of the tables. http://jsfiddle.net/DenisHo/dxpLrcd9/embedded/result/
     
 ## Further help
   The project database is in the db folder at the root of your application.
