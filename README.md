@@ -1,5 +1,5 @@
 
-##Deployment
+#Deployment
 ## Development server
 
   upload the tk_management.sql script at the db folder in the root directory of your application into your local database.
@@ -22,7 +22,8 @@
 #References
   The byrushan super admin template was use in the development of this project and can be access through the link https://byrushan.com/projects/material-admin/app/2.6/
   Also the JQuery drag and drop table plugin was used for the reordering of the tables. http://jsfiddle.net/DenisHo/dxpLrcd9/embedded/result/
-    
+ ##Git Project
+   Access the project on git through https://github.com/ewangclarkson/tk_manager.git
 ## Further help
   The project database is in the db folder at the root of your application.
   This project is a laravel 5.6 project. Please kindly visit the laravel documentation on the requirements to use this project.
